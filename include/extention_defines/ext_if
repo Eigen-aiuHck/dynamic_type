@@ -1,0 +1,6 @@
+/*
+ * Please prioritize not interfering with other functions.
+ */
+
+#define if_ret(BOOLSTATE, TRUE_RVALUE, FALSE_RVALUE)                           \
+  BOOLSTATE ? TRUE_RVALUE : FALSE_RVALUE
