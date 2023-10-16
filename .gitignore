@@ -33,6 +33,4 @@
 
 # User Add
 /build
-/test.cpp
-/CMakeLists.txt
 .vscode
