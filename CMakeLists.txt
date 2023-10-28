@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15...3.26)
-set(PROJECT_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/..)
+
 
 project(
   Dynamic_Type
@@ -8,5 +8,3 @@ project(
   LANGUAGES CXX)
 
 add_subdirectory(src)
-
-set(DYNAMIC_TYPE_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
